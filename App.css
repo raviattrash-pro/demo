@@ -1,0 +1,90 @@
+.App {
+    display: flex;
+    font-family: "IBM Plex Sana Thai Looped", sans-serif;
+    color: white;
+    background: linear-gradient(179deg, #176eb5, #d545d7);
+    text-shadow: 1px 0px 2px #8dc4f0;
+}
+
+.body_container {
+    flex: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sidebar_container {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar {
+    display: flex;
+    width: 14rem;
+    height: 90%;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.lines_icon {
+    display: flex;
+    align-self: flex-end;
+    border-radius: 5px;
+}
+
+.profile {
+    display: flex;
+    width: 5rem;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    align-self: center;
+}
+
+.profile>img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.groups {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+group,
+h3 {
+    margin: 10px;
+}
+
+.content {
+    width: 150px;
+    height: 150px;
+    background-Color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.divpic {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+}
